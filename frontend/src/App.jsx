@@ -3,12 +3,14 @@ import Profile from './components/profile/profile'
 import Projects from './components/projects/projects'
 import Experiences from './components/experiences/experiences'
 import About from './components/about/about'
+import Chat from './components/chat/chat'
 import './App.css'
 function App() {
   return (
     <>
       <Navbar/>
       <Profile/>
+      <Chat/>
       <About/>
       <div id="projects">
         <h2>Projects</h2>
