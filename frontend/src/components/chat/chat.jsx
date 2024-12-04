@@ -8,7 +8,7 @@ function Chat() {
     async function getResponse() {
         try {
             if (!userInput) return
-            const response = await fetch ('http://localhost:4000', {
+            const response = await fetch ('http://localhost:4000/chat', {
                 method: 'POST',
                 heads: {
                     'Content-Type': 'application/json'
@@ -36,11 +36,11 @@ function Chat() {
                 <button type="submit" onClick={getResponse}>Submit</button>
             </form>
             {
-                messages.map((text, index) => {
+                messages.map((text, index) => (
                     <div key={index} className="chatbox">
                         <p className={index %2 == 0 ? "user-message" : "chatbot-response"}>{text}</p>
                     </div>
-                })
+                ))
             }
         </div>
     )
