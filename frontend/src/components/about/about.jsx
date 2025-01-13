@@ -25,10 +25,12 @@ function About() {
             </h2>
             <div style={{display: display}}>
                 <p>
-                    I'm a junior at Boston University studying computer science. I'm currently a
-                    member of [organization]. I'm excited to learn more about [topic]. I
-                    have experience in [skill 1], [skill 2], and [skill 3]. Feel free to
-                    contact me at yourEmailHere@gmail.com!
+                    Hi, welcome to my website! I'm a junior studying CS at Boston University that's still figuring everything out. 
+                    Right now, I'm definitely most interested in web development and software engineering.
+                    I'm also currently a software engineer in Hack4Impact's Impact Team for the spring, working with a team on building a website for the Hendrix Foundation. 
+                    My interests range from binging high fantasy novels like the Stormlight Archive series, 
+                    to playing cozy farming games like Stardew Valley and sinking unfathomable hours into rocket league, 
+                    so feel free to talk to me about anything nerdy, cause chances are I probably dabble in it :) Contact me at julianlim05@gmail.com.
                 </p>
                 <br />
                 <h3>My Skills</h3>
