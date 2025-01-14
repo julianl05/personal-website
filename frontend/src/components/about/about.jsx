@@ -3,6 +3,8 @@ import CSS from '../../assets/css.svg'
 import HTML from '../../assets/html.svg'
 import JS from '../../assets/js.svg'
 import PY from '../../assets/py.svg'
+import REACT from '../../assets/react.svg'
+import NODE from '../../assets/node.svg'
 import { useState } from 'react'
 
 function About() {
@@ -29,7 +31,7 @@ function About() {
                     Right now, I'm definitely most interested in web development and software engineering.
                     I'm also currently a software engineer in Hack4Impact's Impact Team for the spring, working with a team on building a website for the Hendrix Foundation. 
                     My interests range from binging high fantasy novels like the Stormlight Archive series, 
-                    to playing cozy farming games like Stardew Valley and sinking unfathomable hours into rocket league, 
+                    to playing cozy farming games like Stardew Valley and sinking unfathomable hours into Rocket League, 
                     so feel free to talk to me about anything nerdy, cause chances are I probably dabble in it :) Contact me at julianlim05@gmail.com.
                 </p>
                 <br />
@@ -39,6 +41,8 @@ function About() {
                     <img width="60" src={CSS} />
                     <img width="60" src={PY} />
                     <img width="60" src={JS} />
+                    <img width="60" src={REACT} />
+                    <img width="60" src={NODE} />
                 </div>
             </div>
         </div>

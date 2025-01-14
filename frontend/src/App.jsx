@@ -10,17 +10,17 @@ function App() {
     <>
       <Navbar/>
       <Profile/>
-      <Chat/>
+      {/* <Chat/> */}
       <About/>
       <div id="projects">
         <h2>Projects</h2>
-        <Projects name="Project 1" description="Project 1 Description" github="https://github.com"/>
-        <Projects name="Project 2" description="Project 2 Description" github="https://github.com"/>
+        <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website"/>
+        <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com"/>
       </div>
       <div id="exp">
         <h2>Experiences</h2>
-        <Experiences title="Experience 1" info="Experience 1 Info" dates="Experience 1 Dates" bullets={["Bullet 1", "Bullet 2", "Bullet 3"]}/>
-        <Experiences title="Experience 2" info="Experience 2 Info" dates="Experience 2 Dates" bullets={["Bullet 1", "Bullet 2", "Bullet 3"]}/>
+        <Experiences title="Signify" info="Software R&D Intern" dates="June 2024 - August 2024" bullets={["Bullet 1", "Bullet 2", "Bullet 3"]}/>
+        <Experiences title="NYU Shanghai" info="Apprentice Programer" dates="June 2021 - August 2021" bullets={["Bullet 1", "Bullet 2", "Bullet 3"]}/>
       </div>
     </>
   )
