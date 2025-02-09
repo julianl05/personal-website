@@ -26,6 +26,11 @@ button:hover .github-inline {
     filter: invert(1);
 }
 
+a {
+    display: flex;
+    justify-content: center;
+}
+
 #thumbnail {
     max-width: 50%;
     margin: 1vw 0;

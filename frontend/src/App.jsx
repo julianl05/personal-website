@@ -16,8 +16,8 @@ function App() {
       <About/>
       <div id="projects">
         <h2>Projects</h2>
-        <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website" thumbnail={personal}/>
-        <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion}/>
+        <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website" thumbnail={personal} demoLink={"https://julianlimjunren.netlify.app/"}/>
+        <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion} demoLink={"https://benevolent-bonbon-e0ef4f.netlify.app/"}/>
       </div>
       <div id="exp">
         <h2>Experiences</h2>

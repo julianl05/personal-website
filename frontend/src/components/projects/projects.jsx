@@ -1,10 +1,12 @@
 import './projects.css'
-function Projects({ name, description, github, thumbnail }) {
+function Projects({ name, description, github, thumbnail, demoLink }) {
     return (
         <div className="project">
             <h4>{name}</h4>
             <p>{description}</p>
+            <a href={demoLink} target="_blank">
             <img id="thumbnail" src={thumbnail}></img>
+            </a>
             <a target="_blank" href={github}>
             <button className="github">
                 <img className="github-inline" width="20"
