@@ -19,6 +19,11 @@ function App() {
       </div>
       <div id="exp">
         <h2>Experiences</h2>
+        <Experiences title="Hack4Impact and Hendricks Foundation" info="Software Engineer" dates="December 2024 - Present" 
+          bullets={["Working in a team of 3 SWEs and a PM to build an E-waste calculator web app for a non-profit organisation that’ll serve as a tool for reducing E-waste by encouraging users to donate second-hand electronic devices to those in need.",
+                    "Building the web-app with a tech stack consisting of Node JS, Express JS, Supabase, React JS, Tailwind CSS, and TypeScript. ",
+                    "Practicing proper Agile workflow by reporting weekly progress to PM through Kanban boards on Atlassian Jira, consistent Slack communication, Github feature branching, and scheduled meetings."]}/>
+
         <Experiences title="Signify" info="Software R&D Intern" dates="June 2024 - August 2024" 
           bullets={["Served as a team member of a R&D project team specializing in improving customer experience for large scale installations (~100) of IoT smart LED lights. ",
                     "Wrote Javascript and Python scripts for MQTT.fx, Apache JMETER, and Locust that automated MQTT, UDP, and ESP-Now connectivity testing for lights controlled with the WiZ Connected mobile app. ",
