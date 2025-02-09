@@ -4,6 +4,8 @@ import Projects from './components/projects/projects'
 import Experiences from './components/experiences/experiences'
 import About from './components/about/about'
 import Chat from './components/chat/chat'
+import discussion from '../src/assets/song-discussion-board_thumbnail2.png'
+import personal from '../src/assets/portfolio-site-thumbnail.png'
 import './App.css'
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
       <About/>
       <div id="projects">
         <h2>Projects</h2>
-        <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website"/>
-        <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com"/>
+        <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website" thumbnail={personal}/>
+        <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion}/>
       </div>
       <div id="exp">
         <h2>Experiences</h2>
