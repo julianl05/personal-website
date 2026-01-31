@@ -14,27 +14,28 @@ function App() {
       <Profile/>
       {/* <Chat/> */}
       <About/>
+      <div id="exp">
+        <h2>Experiences</h2>
+        <Experiences title="Splunk (a Cisco company)" info="Software Engineering Intern" dates="June 2025 - August 2025" 
+          bullets={["Automated E2E test deployment for multiple projects, building CI/CD pipelines with GitLab Runners, bash script integrations, and automated metrics collection (Cypress, SonarQube, GitLab)",
+                    "Stabilized Cypress E2E test suite (fixed 8+ critical failures, added cleanup procedures) and integrated TestRail API for automated test reporting, achieving 40% higher automation coverage",
+                    "Integrated Splunk dashboard with CI/CD pipeline via automated API calls for real-time analysis of test metrics across 200+ merge requests, becoming primary tool for failure analysis",
+                    "Shipped customer-facing features for Splunk OT Intelligence app, implementing full-stack solutions with React (TypeScript/Redux) frontend and Python REST API backend with detailed unit testing"]}/>
+        <Experiences title="Hack4Impact and Hendricks Foundation" info="Software Engineering Intern" dates="Jan 2025 - May 2025" 
+          bullets={["Built full-stack E-waste calculator (TypeScript) with team of 3 for environmental nonprofit, featuring calculation engine supporting 20+ device categories and environmental impact metrics",
+                    "Implemented user authentication system: React/Tailwind CSS frontend forms integrated with Supabase Auth backend, including secure registration, login, and 2FA verification",
+                    "Designed device submission pipeline with React forms, image uploads, and PostgreSQL storage, integrating first-party OCR API for fraud prevention",
+                    "Implemented admin dashboard using TanStack Table with virtual scrolling, filtering, and bulk operations to manage user accounts and device submissions via optimized Supabase queries"]}/>
+
+        <Experiences title="Signify" info="Software Engineering R&D Intern" dates="June 2024 - August 2024" 
+          bullets={["Automated MQTT, UDP, and ESP-Now connectivity testing for 100+ smart LED bulbs using Python/JavaScript, reducing testing time by 80%",
+                    "Developed a PyQt5 GUI for 100x100 RGB LED grids featuring scrolling text, image/GIF rendering, per-bulb control, and disconnection handling via multithreading, enabling streamlined iterative testing",
+                    "Identified sources of critical latency issues in Wiz Connected Mobile App through extensive testing utilizing Apache JMETER, Locust, and ESP32 LED bulb firmware debugging, resulting in drastically improved app responsiveness"]}/>
+      </div>
       <div id="projects">
         <h2>Projects</h2>
         <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website" thumbnail={personal} demoLink={"https://julianlimjunren.netlify.app/"}/>
         <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion} demoLink={"https://benevolent-bonbon-e0ef4f.netlify.app/"}/>
-      </div>
-      <div id="exp">
-        <h2>Experiences</h2>
-        <Experiences title="Hack4Impact and Hendricks Foundation" info="Software Engineer" dates="December 2024 - Present" 
-          bullets={["Working in a team of 3 SWEs and a PM to build an E-waste calculator web app for a non-profit organisation that’ll serve as a tool for reducing E-waste by encouraging users to donate second-hand electronic devices to those in need.",
-                    "Building the web-app with a tech stack consisting of Node JS, Express JS, Supabase, React JS, Tailwind CSS, and TypeScript. ",
-                    "Practicing proper Agile workflow by reporting weekly progress to PM through Kanban boards on Atlassian Jira, consistent Slack communication, Github feature branching, and scheduled meetings."]}/>
-
-        <Experiences title="Signify" info="Software R&D Intern" dates="June 2024 - August 2024" 
-          bullets={["Served as a team member of a R&D project team specializing in improving customer experience for large scale installations (~100) of IoT smart LED lights. ",
-                    "Wrote Javascript and Python scripts for MQTT.fx, Apache JMETER, and Locust that automated MQTT, UDP, and ESP-Now connectivity testing for lights controlled with the WiZ Connected mobile app. ",
-                    "Developed a Python PyQT5 GUI for controlling rectangular grids of RGB WiZ lights, capable of displaying scrolling text, images, gifs, chinese characters, etc."]}/>
-
-        <Experiences title="NYU Shanghai" info="Apprentice Programer" dates="June 2021 - August 2021" 
-          bullets={["Contributed to a python-based search engine utilizing gRPC and bert_as_a_service during a span of 4 weeks.",
-                    "Incorporated elements of pattern recognition to teach search engines to present relevant results.", 
-                    "Navigated file systems through UNIX command line tools."]}/>
       </div>
     </>
   )

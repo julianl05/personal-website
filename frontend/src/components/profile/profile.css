@@ -12,7 +12,8 @@
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #F4F0F5;
+    /* border: 3px solid ; */
 }
 #profile-text {
     display: flex;

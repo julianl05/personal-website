@@ -1,9 +1,9 @@
 body {
     font-family: "Inter";
     /* background-color: #dedede; */
-    background-color: #e1d1c4;
+    background-color: #382039;
     /* color: #333; */
-    color: #4b3d3a;
+    color: #F4F0F5;
 }
 
 #about,
@@ -12,7 +12,7 @@ body {
 #exp {
     width: 60%;
     margin: 30px auto;
-    background-color: #f5f0e1;
+    background-color: #5A3D5C;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@ body {
 
 .project,
 .job {
-    background: #f5f0e1;
+    background: #816283;
     margin: 0 auto;
     margin-bottom: 30px;
     width: 75%;
