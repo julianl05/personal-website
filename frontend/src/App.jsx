@@ -6,6 +6,7 @@ import About from './components/about/about'
 import Chat from './components/chat/chat'
 import discussion from '../src/assets/song-discussion-board_thumbnail2.png'
 import personal from '../src/assets/portfolio-site-thumbnail.png'
+import albumdiscovery from '../src/assets/albumdiscovery-thumbnail.png'
 import './App.css'
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       </div>
       <div id="projects">
         <h2>Projects</h2>
+        <Projects name="Song/Album Discovery Platform" description="Responsive music discovery app in team of 4 with genre filtering, search history, dynamic page routing for album details, and light/dark mode for accessibility" github="https://github.com/sphung01/cs391-final-project" thumbnail={albumdiscovery} demoLink={"https://cs391-final-project-alpha.vercel.app/"}/>
         <Projects name="Personal Portfolio Website" description="You're on it right now!" github="https://github.com/julianl05/personal-website" thumbnail={personal} demoLink={"https://julianlimjunren.netlify.app/"}/>
         <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion} demoLink={"https://benevolent-bonbon-e0ef4f.netlify.app/"}/>
       </div>
