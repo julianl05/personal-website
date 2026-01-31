@@ -27,10 +27,8 @@ function About() {
             </h2>
             <div style={{display: display}}>
                 <p>
-                    Hi, welcome to my website! I'm a junior studying CS at Boston University that's still figuring everything out. 
-                    Right now, I'm definitely most interested in web development and software engineering.
-                    I'm also currently a software engineer in Hack4Impact's Impact Team for the spring, working with a team on building a website for the Hendrix Foundation. 
-                    My interests range from binging high fantasy novels like the Stormlight Archive series, 
+                    Hi, welcome to my portfolio! I'm a senior studying CS at Boston University that's still figuring things out. Most recently, I've interned at Splunk, where I worked on automating E2E test deployment and shipping customer-facing features for their OT Intelligence app.
+                    My personal interests range from binging high fantasy novels like the Stormlight Archive series, 
                     to playing cozy farming games like Stardew Valley and sinking unfathomable hours into Rocket League, 
                     so feel free to talk to me about anything nerdy, cause chances are I probably dabble in it :) Contact me at julianlim05@gmail.com.
                 </p>
