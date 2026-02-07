@@ -7,6 +7,7 @@ import Chat from './components/chat/chat'
 import discussion from '../src/assets/song-discussion-board_thumbnail2.png'
 import personal from '../src/assets/portfolio-site-thumbnail.png'
 import albumdiscovery from '../src/assets/albumdiscovery-thumbnail.png'
+import Footer from './components/footer/footer'
 import './App.css'
 import { useState } from 'react'
 function App() {
@@ -76,6 +77,7 @@ function App() {
           <Projects name="Song Discussion Board" description="Web app for users to discuss 3 random songs each day." github="https://github.com" thumbnail={discussion} demoLink={"https://benevolent-bonbon-e0ef4f.netlify.app/"}/>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
