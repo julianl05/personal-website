@@ -37,3 +37,30 @@ a {
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    #thumbnail {
+        max-width: 70%;
+    }
+    
+    .github {
+        font-size: 14px;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #thumbnail {
+        max-width: 90%;
+    }
+    
+    .github {
+        font-size: 12px;
+        padding: 0.2rem 0.4rem;
+    }
+    
+    .github-inline {
+        width: 16px;
+        height: 16px;
+    }
+}

@@ -59,3 +59,30 @@ input[type="text"]:focus {
     outline: none;
     border: 2px solid #333;
 }
+
+@media (max-width: 768px) {
+    .chatbot-response,
+    .user-message {
+        width: 70%;
+    }
+    
+    input[type="text"] {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chatbot-response,
+    .user-message {
+        width: 85%;
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    .x {
+        top: -20px;
+        right: -5px;
+        font-size: 0.7rem;
+    }
+}

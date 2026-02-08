@@ -13,3 +13,51 @@
     margin-top: 0;
     border: 2px solid #30022A;
 }
+
+.icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    gap: 1%;
+}
+
+@media (max-width: 768px) {
+    #about h3 {
+        font-size: 20px;
+    }
+    
+    .toggler {
+        font-size: small;
+        padding: 2px 6px;
+    }
+    
+    #about img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .icons-container {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about h3 {
+        font-size: 18px;
+    }
+    
+    .toggler {
+        font-size: x-small;
+        padding: 2px 4px;
+    }
+    
+    #about img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icons-container {
+        gap: 5px;
+    }
+}

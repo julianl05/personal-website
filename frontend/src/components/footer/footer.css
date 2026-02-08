@@ -5,3 +5,11 @@
     padding: 20px 0;
     margin-top: 75px;
 }
+
+@media (max-width: 480px) {
+    #footer {
+        padding: 15px 10px;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+}

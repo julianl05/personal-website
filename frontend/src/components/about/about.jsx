@@ -39,7 +39,7 @@ function About() {
                 </p>
                 <br />
                 <h3>My Skills</h3>
-                <div className="icons">
+                <div className="icons-container">
                     <img width="60" src={HTML} />
                     <img width="60" src={CSS} />
                     <img width="60" src={PY} />

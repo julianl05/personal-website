@@ -59,3 +59,75 @@ button:hover {
     background-color: #dedede;
     color: #333;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #about,
+    #chat,
+    #projects,
+    #exp {
+        width: 75%;
+    }
+    
+    .project,
+    .job {
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    #about,
+    #chat,
+    #projects,
+    #exp {
+        width: 85%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    .project,
+    .job {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    #projects h2,
+    #about h2,
+    #chat h2,
+    #exp h2 {
+        font-size: 24px;
+    }
+    
+    button {
+        font-size: 1.1rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #about,
+    #chat,
+    #projects,
+    #exp {
+        width: 95%;
+        padding: 15px;
+        margin: 15px auto;
+    }
+    
+    .project,
+    .job {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    #projects h2,
+    #about h2,
+    #chat h2,
+    #exp h2 {
+        font-size: 20px;
+    }
+    
+    button {
+        font-size: 1rem;
+    }
+}
